@@ -8,7 +8,6 @@ import requests
 import json
 from datetime import datetime
 
-GEMINI_API_KEY = 'AIzaSyDNEchnzTrA9Ej8nko7LX2poS2NKHulyac'
 GEMINI_API_URL = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent'
 
 def get_customer_profile(age):
